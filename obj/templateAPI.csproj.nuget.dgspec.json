@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/robertofdez/Documents/GitHub/templateAPI/templateAPI.csproj": {}
+    "/Users/robertofdez/Documents/GitHub/APIminima/templateAPI.csproj": {}
   },
   "projects": {
-    "/Users/robertofdez/Documents/GitHub/templateAPI/templateAPI.csproj": {
+    "/Users/robertofdez/Documents/GitHub/APIminima/templateAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/robertofdez/Documents/GitHub/templateAPI/templateAPI.csproj",
+        "projectUniqueName": "/Users/robertofdez/Documents/GitHub/APIminima/templateAPI.csproj",
         "projectName": "templateAPI",
-        "projectPath": "/Users/robertofdez/Documents/GitHub/templateAPI/templateAPI.csproj",
+        "projectPath": "/Users/robertofdez/Documents/GitHub/APIminima/templateAPI.csproj",
         "packagesPath": "/Users/robertofdez/.nuget/packages/",
-        "outputPath": "/Users/robertofdez/Documents/GitHub/templateAPI/obj/",
+        "outputPath": "/Users/robertofdez/Documents/GitHub/APIminima/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/robertofdez/.nuget/NuGet/NuGet.Config"
@@ -37,6 +37,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
